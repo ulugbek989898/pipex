@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/uisroilo/Desktop/cursus/PIPEX/ulug'
+gcc -Wall -Wextra -Werror   -c -o ft_split.o ft_split.c
+ 
+gcc -Wall -Wextra -Werror   -c -o ft_strjoin.o ft_strjoin.c
+gcc -Wall -Wextra -Werror   -c -o ft_strlen.o ft_strlen.c
+gcc -Wall -Wextra -Werror   -c -o ft_substr.o ft_substr.c
+gcc -Wall -Wextra -Werror   -c -o pipex.o pipex.c
+gcc -Wall -Wextra -Werror   -c -o pipex_utils.o pipex_utils.c
+ 
+gcc -Wall -Wextra -Werror -o pipex ft_split.o ft_strjoin.o ft_strlen.o ft_substr.o pipex.o pipex_utils.o
+make: Leaving directory `/Users/uisroilo/Desktop/cursus/PIPEX/ulug'
+ 
